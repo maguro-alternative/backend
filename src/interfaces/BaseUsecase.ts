@@ -1,0 +1,1 @@
+export type UsecaseHandler<Props, Repositories, Result> = (props: Props, repositories: Repositories) => Promise<Result>;
